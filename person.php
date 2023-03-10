@@ -88,6 +88,7 @@ class Person {
         $last_name = $_POST["last_name"];
         $age = $_POST["age"];
         $person = new Person($first_name, $last_name, $age);
+        // neu Person 
         echo "<h2>New Person Added</h2>";
         echo "First Name: " . $person->getFirstName() . "<br>";
         echo "Last Name: " . $person->getLastName() . "<br>";

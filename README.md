@@ -1,8 +1,7 @@
 # ooptask
 
-1. ## erste aufgabe
-Create a class called "Person" with properties for first name, last name, and age. 
-Add methods to the class for setting and getting the properties.?
+1. ## Create a class called "Person" with properties for first name, last name, and age. Add methods to the class for setting and getting the properties.?
+
 class Person
 
 erstelen einen Baumplan, ermöglicht Objekt zu erstellen 
@@ -27,3 +26,6 @@ Erstelle eine neue Person.
 
 Print out the values of the new person
 Gib die Werte der neuen Person aus.
+
+
+2. ## Create a class called "Car" with properties for make, model, and year. Add methods to the class for setting and getting the properties.
