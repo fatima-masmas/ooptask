@@ -131,7 +131,7 @@ if (isset($_POST['accountNumber']) && isset($_POST['amount']) && isset($_POST['t
         echo 'New Balance: $' . $account->getBalance() . '<br>';
     }
 }
-
+// "create_account.php" und "deposit_withdraw.php" müssen Sie nur noch den richtigen Pfad zur BankAccount-Klasse angeben.
 // Get the form data
 $accountNumber = $_POST['accountNumber'];
 $balance = $_POST['balance'];
