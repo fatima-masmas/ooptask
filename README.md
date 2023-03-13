@@ -29,3 +29,12 @@ Gib die Werte der neuen Person aus.
 
 
 2. ## Create a class called "Car" with properties for make, model, and year. Add methods to the class for setting and getting the properties.
+
+
+Der Pfad hängt von der Dateistruktur deines Projekts ab. In der Regel solltest du die PHP-Datei, die den Code für die Klasse enthält, in einem separaten Ordner innerhalb deines Projekts speichern, z. B. in einem Ordner namens "classes". Wenn du die HTML-Datei, die das Formular enthält, im selben Ordner wie die PHP-Datei speichern möchtest, kannst du in deinem HTML-Code den Pfad zur PHP-Datei relativ angeben, z. B. "../classes/Employee.php".
+
+
+
+6. ## Create a class called "Rectangle" with properties for length and width. Add methods to the class for setting and getting the properties, as well as for calculating the area and perimeter of the rectangle
+
+eine Klasse namens "Rectangle" mit den Eigenschaften Länge und Breite. Die Klasse hat Methoden zum Setzen und Abrufen der Eigenschaften sowie zur Berechnung der Fläche und des Umfangs des Rechtecks.

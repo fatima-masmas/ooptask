@@ -1,15 +1,15 @@
 <?php
 class Triangle {
-  private $base;
-  private $height;
+  private float $base;
+  private float $height;
 
   public function __construct($base, $height) {
-    $this->base = $base;
+    $this->base =  $base;
     $this->height = $height;
   }
 
   public function setBase($base) {
-    $this->base = $base;
+    $this->base = floatval($base);
   }
 
   public function getBase() {
@@ -17,7 +17,7 @@ class Triangle {
   }
 
   public function setHeight($height) {
-    $this->height = $height;
+    $this->height =floatval($height);
   }
 
   public function getHeight() {
